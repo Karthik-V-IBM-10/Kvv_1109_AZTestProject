@@ -11,3 +11,8 @@ runtimes:
     type: flow
     stepId: /1
     reference: fld_108455070_stage00.projects.flf69440cd35a3495cb98610701d27ae20.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
+  - name: 180ert Workflow
+    type: workflow
+    uid: flcae1fd22332542069c084711c1237eed
+    stepId: a0
+    reference: SIQA_TimeoutTest:delayfor180Sec
