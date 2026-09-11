@@ -1,0 +1,13 @@
+version: "1.0"
+projectName: Kvv_1109_AZTestProject
+runtimes:
+- runtimeAlias: kvv_1109_AZTest
+  assets:
+  - name: fld_108455070_stage00.projects.flf69440cd35a3495cb98610701d27ae20.integrations:tppfcs
+    type: flow
+    stepId: /0
+    reference: fld_108455070_stage00.projects.flf69440cd35a3495cb98610701d27ae20.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
+  - name: fld_108455070_stage00.projects.flf69440cd35a3495cb98610701d27ae20.integrations:tppfcs
+    type: flow
+    stepId: /1
+    reference: fld_108455070_stage00.projects.flf69440cd35a3495cb98610701d27ae20.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
